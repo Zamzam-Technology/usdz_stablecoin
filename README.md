@@ -4,12 +4,12 @@ BEP20 token with governance features
 
 Stablecoins are cryptocurrencies backed by reserve assets for everyday use. They are designed to combine features such as instant processing, security, and privacy of blockchain technology, with the stability of reserve assets or leading Fiat currencies. 
 
-USDZ is a stablecoin pegged to the US Dollar. Zamzam is developing such stablecoins as a universal solution for payments, remittance, banking, trading, and many other business applications.  
+USDZ is a stablecoin pegged to BUSD. Zamzam is developing such stablecoins as a universal solution for payments, remittance, banking, trading, and many other business applications.  
 
 ![](./assets/usdzstablecoin.jpeg)
 
 ## Features
-- Price Stability: USDZ achieve their price stability via collateralization. 1 USDZ will always be worth 1 USD respectively. 
+- Price Stability: USDZ achieve their price stability via collateralization. 1 USDZ will always be worth 1 BUSD respectively. 
 - Instant Processing: Stablecoin transactions are processed and settled inside the ecosystem in real-time.
 - Transparency. All collateral assets backing USDZ are deposited in escrow accounts with a real-time dashboard showing the value of collateralization and circulation of each so that our stablecoin collateral value is absolutely transparent to everyone.
 
