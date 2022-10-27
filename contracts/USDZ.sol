@@ -33,12 +33,16 @@ contract USDZ is
         _;
     }
 
-    function initialize(address minter) external initializer {
+    function initialize(address minter, uint256 initialSupply)
+        external
+        initializer
+    {
         __Ownable_init();
         __Pausable_init();
         __ReentrancyGuard_init();
         __ERC20_init_unchained("Stablecoin USDZ", "USDZ");
         _minter = minter;
+        _mint(minter, initialSupply);
     }
 
     function burn(address account, uint256 amount) external onlyMinter {
@@ -57,5 +61,13 @@ contract USDZ is
 
     function getMinterAddress() external view returns (address) {
         return _minter;
+    }
+
+    function pause() external onlyOwner {
+        _pause();
+    }
+
+    function unPause() external onlyOwner {
+        _unpause();
     }
 }
