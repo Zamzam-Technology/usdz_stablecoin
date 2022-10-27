@@ -1,5 +1,14 @@
-__pycache__
-.history
-.hypothesis/
-build/
-reports/
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# truffle
+build
+
+# environment variables
+.env
+
+# deploy
+.openzeppelin
